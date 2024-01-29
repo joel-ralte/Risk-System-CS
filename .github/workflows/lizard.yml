@@ -2,7 +2,7 @@ name: Lizard Runner
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
