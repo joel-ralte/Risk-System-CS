@@ -26,7 +26,7 @@ namespace Zeiss.RiskSystemControllerLib
 
             List<Trade> sampleTrades = new List<Trade>
             {
-                 new Trade { TradeID = "1", Date = DateTime.Now, CurrentTradeValueUSD = 10000, CounterpartyID = "C1" },
+                 new Trade { TradeID = "1", Date = DateTime.Now, CurrentTradeValueUSD = 12000, CounterpartyID = "C1" },
                  new Trade { TradeID = "2", Date = DateTime.Now.AddDays(-1), CurrentTradeValueUSD = 15000, CounterpartyID = "C2" },
             };
 
